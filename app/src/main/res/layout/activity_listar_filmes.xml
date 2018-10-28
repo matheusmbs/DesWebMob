@@ -6,8 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".ListarFilmesActivity">
 
+
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/lista_filme"></ListView>
+
 </LinearLayout>
