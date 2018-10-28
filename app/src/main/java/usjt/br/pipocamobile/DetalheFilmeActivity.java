@@ -20,10 +20,20 @@ public class DetalheFilmeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detalhe_filme);
-        TextView txtFilme = (TextView)findViewById(R.id.txtFilme);
+        TextView txtNome = (TextView)findViewById(R.id.txtNome);
+        TextView txtDiretor = (TextView)findViewById(R.id.txtDiretor);
+        TextView txtPopularidade = (TextView)findViewById(R.id.txtPopularidade);
+        TextView txtGenero = (TextView)findViewById(R.id.txtGenero);
+        TextView txtDescricao = (TextView)findViewById(R.id.txtDescricao);
+
         Intent intent = getIntent();
         Filme  filme = (Filme)intent.getSerializableExtra(ListarFilmesActivity.FILME);
-        txtFilme.setText(filme.toString());
+        txtNome.setText("Filme: " + filme.getTitulo());
+        txtDiretor.setText("Diretor: " + filme.getDiretor());
+        txtPopularidade.setText("Popularidade: " + filme.getPopularidade());
+        txtGenero.setText("Genero: " + filme.getGenero());
+        txtDescricao.setText(filme.getDescricao());
+
     }
 
 }

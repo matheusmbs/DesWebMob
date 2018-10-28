@@ -18,6 +18,10 @@ public class Filme implements Serializable, Comparable {
     private String diretor;
     private String genero;
 
+
+
+    private String iconName;
+
     public Filme(int id, String titulo, String descricao, double popularidade, String diretor, String genero) {
         this.id = id;
         this.titulo = titulo;
@@ -75,6 +79,14 @@ public class Filme implements Serializable, Comparable {
 
     public void setGenero(String genero) {
         this.genero = genero;
+    }
+
+    public String getIconName() {
+        return iconName;
+    }
+
+    public void setIconName(String iconName) {
+        this.iconName = iconName;
     }
 
     @Override

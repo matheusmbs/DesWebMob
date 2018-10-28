@@ -8,6 +8,9 @@
         <item>Drama</item>
         <item>Comédia</item>
     </string-array>
-    <string name="title_activity_listar_filmes">ListarFilmesActivity</string>
-    <string name="title_activity_detalhe_filme">DetalheFilmeActivity</string>
+    <string name="titulo">Titulo: %$</string>
+    <string name="descricao">Descrição: %$</string>
+    <string name="popularidade">Popularidade: %$</string>
+    <string name="diretor">Diretor: %$</string>
+    <string name="genero">Genero: %$</string>
 </resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="web_service_url">https://api.themoviedb.org/3/discover/movie?api_key=83cd8cc234ea9b5b4d36b73c38f8fb22&amp;language=pt-BR&amp;with_genres=</string>
+    <string name="image_download_url">https://image.tmdb.org/t/p/w300/</string>
+
+</resources>
